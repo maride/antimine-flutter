@@ -61,5 +61,7 @@ flutter build appbundle  --release
 
 ```
 flutter build ipa --obfuscate --split-debug-info=./debug-info
-flutter build appbundle
 ```
+
+If the build fails with `error: exportArchive No profiles for 'dev.lucasnlm.antimine' were found`, open the Xcode Organizer (`Window > Organizer`), select the newly created App, click `Distribute App`, and click through the wizard.
+ 
